@@ -24,7 +24,7 @@ body {
 	margin-top: 0;
 	background: url(../images/bg.jpg)
 	}
-.main{width:100%;height: auto; padding-bottom: 20px;}
+.main{width:100%;height: auto;}
 
 a[href^="tel:"]{color: inherit; text-decoration:none;} 
 * {-webkit-text-size-adjust: none;}
@@ -208,7 +208,7 @@ h1 span{
 h1 a{display:inline-block;}
 h2{ font-size:24px; 
 	font-family: 'Oswald', sans-serif;
-	color:#000000;
+	color:#fff;
 	line-height:30px;
 	font-weight: 400;
 	text-transform:uppercase;
@@ -477,6 +477,7 @@ aside{
 border-top: 2px solid #ecb34a;
     border-left: 2px solid #ecb34a;
     border-right: 2px solid #ecb34a;
+    margin-top: 205px;
 	}
 aside h3{margin:26px 0 15px 15px;}
 
@@ -619,10 +620,26 @@ aside h3{margin:26px 0 15px 15px;}
 /**********************************index-6*********************************/
 .box-4{
 	margin-top:10px !important;
-	background: url(../images/bg-box-1.jpg) 0 0 repeat-x #ffffff;
+	border-radius: 8px 8px 8px 8px;
+-moz-border-radius: 8px 8px 8px 8px;
+-webkit-border-radius: 8px 8px 8px 8px;
+border: 0px solid #000000;
+	background-color: white;
 	padding-bottom:52px;
+	box-shadow: 10px 10px 26px 1px rgb(196, 197, 219);
 	}
-.box-4 h2{padding:19px 0 45px 0;background: url(../images/482.png) 0 55px repeat-x #ffffff;}
+.box-4 h2{
+	padding:16px 0 16px 16px;
+	text-shadow: 1px 1px #adbefb;
+
+	background-color: #025ba1;
+	border-radius: 8px 8px 0px 0px;
+-moz-border-radius: 8px 8px 0px 0px;
+-webkit-border-radius: 8px 8px 0px 0px;
+border: 0px solid #000000;
+border-bottom: 3px solid #f06b05;
+	
+}
 .box-4 em{
 	font-style:normal;
 	display:block;
@@ -1052,6 +1069,7 @@ footer {
 
 p {
 	color: #000000;
+	margin-top: 5px;
 }
 
 #twitter-timeline{
